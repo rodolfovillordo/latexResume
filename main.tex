@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CV Rodolfo Villordo 2020  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,
+top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+%Colors
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000000}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Rodolfo Câmara Villordo}
+\tagline{}
+\personalinfo{
+	% get email and phone number from environment variables
+	\email{\getenv{EMAIL}}
+	\phone{\getenv{PHONENUMBER}}
+	\github{https://github.com/rodolfovillordo}{rodolfovillordo}
+	\linkedin{linkedin.com/in/rodolfovillordo}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[page1sidebar]{Experience}
+
+%%%%%%%%%%%%%
+%Experience 1
+%%%%%%%%%%%%%
+
+\cvevent{Cloud Support Engineer}{Amazon Web Services}{Apr 2019 -- Current}
+{Dublin, IE}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Troubleshoot and solve customer issues on AWS Services} 
+	    \subitem - \small{CloudFormation, Lambda, API Gateway, GreenGrass, 
+		IoT, Cognito}
+    \item[--]  \small{Interact with the development team to address feature 
+	    requests and issues on the services }
+    \item[--]   \small{Mentor less experienced team mates}
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%
+%Experience 2
+%%%%%%%%%%%%%
+
+\cvevent{Security Engineer}{Pagseguro UOL}{Oct 2017 –- Feb 2019}{São Paulo, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Vulnerability assessment on web and mobile applications}
+    \item[--]   \small{Design and implementation of the company security model 
+	    for cloud environment}
+    \item[--]   \small{Design and implementation of the fraud detection system}
+\end{itemize}
+
+%%%%%%%%%%%%%
+%Experience 3
+%%%%%%%%%%%%%
+
+\cvevent{Security Engineer}{Banco Itaú Unibanco}
+{Nov 2014 -- Sept 2017}{São Paulo, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Vulnerability assessment on web and mobile applications}
+    \item[--] 	\small{Fraud analysis and detection of modus operands on online 
+	    banking channels}
+    \item[--]	\small{Implement and monitor anti-fraud patches on online 
+	    banking channels }
+\end{itemize}
+
+%%%%%%%%%%%%%
+%Experience 4
+%%%%%%%%%%%%%
+
+\cvevent{Security Analyst}{Oi Internet}{Mar 2013 –- Oct 2014}{São Paulo, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{ Vulnerability assessment in web applications, 
+	    penetration tests, development and maintenance of security baselines.}
+\end{itemize}
+
+
+%%%%%%%%%%%%%
+%Experience 5
+%%%%%%%%%%%%%
+
+\cvevent{Sysadmin \& Security Analyst}{BRCont Tecnologia da Informação}
+{Feb 2012 –- Aug 2012}{Londrina, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{ Vulnerability assessment in web applications, 
+	    penetration tests, development and maintenance of security baselines.}
+\end{itemize}
+
+
+%%%%%%%%%%%%%
+%Experience 6
+%%%%%%%%%%%%%
+
+\cvevent{Sysadmin Linux}{TOTVS S.A}{Sept 2011 -- Feb 2012}{São Paulo, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Deploy and maintain DNS, Web, email servers and load 
+	    balancing appliance}
+\end{itemize}
+
+
+%%%%%%%%%%%%%
+%Experience 7
+%%%%%%%%%%%%%
+
+\cvevent{Linux consultant}{4Linux - Free Software Solutions}
+{Sept 2010 -- Sept 2012}{São Paulo, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Design, deploy and support critical and high available 
+	    infrastructures}
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%
+%Experience 8
+%%%%%%%%%%%%%
+
+\cvevent{Java Developer}{LINT - Londrina Tecnologia da Informação S.A.}
+{2007 -- 2008}{Londrina, BR}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small{Design, deploy and support critical and high available 
+	    infrastructures}
+\end{itemize}
+\medskip
+
+\end{document}

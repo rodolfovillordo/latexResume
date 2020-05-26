@@ -1,0 +1,6 @@
+output/*.log
+output/*.xml
+output/*.aux
+output/*.bcf
+output/*.out
+
